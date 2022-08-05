@@ -22,7 +22,7 @@ class _Article_ViewState extends State<Article_View> {
         centerTitle: true,
         backgroundColor: Colors.white,
         title: const Text(
-          'Shivam News ',
+          'Khabar Kaltak',
           style: TextStyle(
               color: Colors.blue, fontSize: 20.0, fontWeight: FontWeight.bold),
         ),

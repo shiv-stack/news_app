@@ -40,12 +40,17 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
+        
         backgroundColor: Colors.white,
+        actions: const [
+          Icon(Icons.newspaper),
+        ],
         title: const Text(
-          'Shivam NewNation ',
+          'Khabar Kaltak',
           style: TextStyle(
               color: Colors.blue, fontSize: 20.0, fontWeight: FontWeight.bold),
         ),
+        
         elevation: 0.0,
       ),
       body: _loading
